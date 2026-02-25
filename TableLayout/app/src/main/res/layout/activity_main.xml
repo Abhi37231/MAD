@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <!-- Row 1 : Time -->
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+
+    <!-- Row 2 : First Name -->
+    <TableRow>
+        <TextView
+            android:text="First Name"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:hint="Enter First Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 3 : Last Name -->
+    <TableRow>
+        <TextView
+            android:text="Last Name"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:hint="Enter Last Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 4 : Rating -->
+    <TableRow>
+        <TextView
+            android:text="Rating"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 5 : Button -->
+    <TableRow>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:text="Submit"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>
