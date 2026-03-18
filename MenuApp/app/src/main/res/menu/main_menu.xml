@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:id="@+id/android" android:title="Android"/>
-    <item android:id="@+id/java" android:title="JAVA"/>
-    <item android:id="@+id/kotlin" android:title="Kotlin"/>
-
+    <item android:id="@+id/red" android:title="Red"/>
+    <item android:id="@+id/green" android:title="Green"/>
+    <item android:id="@+id/blue" android:title="Blue"/>
 </menu>
